@@ -1,0 +1,18 @@
+extends layout
+
+block content
+  h1  Recipitant Details
+  form(action='users/process2' method='POST')  
+    |Recipitant_Name: 
+    input(type='text' name='rname')    
+    br
+    |Blood_Group: 
+    input(type='text' name='bgroup')    
+    br
+    |Contact: 
+    input(type='number' name='contact')    
+    br
+    input(type='submit' value='Submit')
+
+  
+
